@@ -12,6 +12,10 @@ describe("App", () => {
    it("Check a connected Wallet existing", () => {
       expect(app.find("Connect(Wallet)").exists()).toBe(true)
    });
+
+   it("Check then App contain a Loot component", () => {
+      expect(app.find("Connect(Loot)").exists()).toBe(true)
+   });
 });
 
 
