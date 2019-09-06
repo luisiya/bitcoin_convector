@@ -1,0 +1,35 @@
+body{
+    background-image: url("./assets/money.jpeg");
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 5%;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+
+button{
+    margin-left: 5px;
+    border:4px #12296d solid;
+    font-weight: bold;
+   }
+button:hover{
+    color:white;
+    background-color: #12296d;
+}
+
+button, input{
+    border:2px solid black;
+    border-radius: 2px;
+    background-color: white;
+    padding: 5px;
+}
+
+.bitcoinBalance{
+    color: #12296d;
+}
+.coinLink span{
+    width: 100px;
+  }
+.coinLink a{
+    color:#12296d;
+   }

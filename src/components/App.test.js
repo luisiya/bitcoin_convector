@@ -16,6 +16,11 @@ describe("App", () => {
    it("Check then App contain a Loot component", () => {
       expect(app.find("Connect(Loot)").exists()).toBe(true)
    });
+
+   it("Check if App has coindesk price page", () => {
+      expect(app.find("a").props().href).toBe("https://www.coindesk.com/price");
+   });
+
 });
 
 
